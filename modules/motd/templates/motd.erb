@@ -1,0 +1,17 @@
+o8                                                  oooo           o88    o8
+ooooooooo  oooo  oooo ooooooooo  ooooooooo    ooooooooo8 o888oo       oooooooo8    ooooooo   oo oooooo    ooooo888 ooooooooo  oooo o888oo
+888    888 888   888  888    888 888    888 888oooooo8   888        888ooooooo    ooooo888   888   888 888    888  888    888 888  888
+888    888 888   888  888    888 888    888 888          888                888 888    888   888   888 888    888  888    888 888  888
+888ooo88    888o88 8o 888ooo88   888ooo88     88oooo888   888o      88oooooo88   88ooo88 8o o888o o888o  88ooo888o 888ooo88  o888o  888o
+o888                  o888       o888                                                                              o888
+oo
+oooo   oooo o888
+888   888   888
+888 888    888
+888     o888o
+
+#########################################
+Welcome to <%= scope.lookupvar('::fqdn') %>
+Running:    <%= scope.lookupvar('::operatingsystem') %> <%= scope.lookupvar('::operatingsystemrelease') %> <%= scope.lookupvar('::kernelrelease') %> for <%= scope.lookupvar('::uptime') %>
+Puppet Version: <%= scope.lookupvar('::puppetversion') %>
+Jiggawatts:   <%= scope.lookupvar('::processorcount') %> CPU, <%= scope.lookupvar('::memorysize') %> RAM
